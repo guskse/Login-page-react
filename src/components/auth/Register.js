@@ -59,14 +59,12 @@ function Register({ onLogin }) {
       setPassLength(false);
     }
 
-    if(passLetter && passNumber && passChar && passLength){
-      setPassComplete(true)
-    }else{
+    if (passLetter && passNumber && passChar && passLength) {
+      setPassComplete(true);
+    } else {
       setPassComplete(false);
     }
-
-
-  }, [pass,passLength,passNumber,passChar,passLetter]);
+  }, [pass, passLength, passNumber, passChar, passLetter]);
 
   return (
     <div className="main-container --flex-center">
@@ -105,7 +103,7 @@ function Register({ onLogin }) {
           </button>
           <span className="--text-sm --block">
             Have an account?
-            <a href="http://localhost:3000" onClick={onLogin}>
+            <a href="#" onClick={onLogin}>
               {" "}
               Login
             </a>
