@@ -10,7 +10,7 @@ function Login({ onRegister, onReset }) {
         <form className="--form-control">
           <h2 className="--color-danger --text-center">Login</h2>
           <input type="text" className="--width-100" placeholder="Username" />
-          <h2 className="--color-danger">Password</h2>
+          <h2 className="--color-danger  --text-center">Password</h2>
           <input
             type="password"
             className="--width-100"
